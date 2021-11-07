@@ -7,7 +7,8 @@
  Dim skinsFAMAS() As String = {"CaliCamo", "Meltdown", "Faulty Wiring", "Spitfire", "Dark Water", "Hexane", "Styx", "Djinn", "Prime Conspiracy", "Commemoration", "Decommissioned", "Doomkitty", "Afterimage", "Neural Net", "Roll Cage", "Mecha Industries", "Eye of Athena", "Colony", "Cyanospatter", "Night Borre", "Contrast Spray", "Macabre", "ZX Spectron", "Valence", "Sergeant", "Crypsis", "Teardown", "Survivor Z", "Sundown", "Pulse"}
  Dim skinsFIVE7() As String = {"Coolant","Withered Vine","Fall Hazard","Anodized Gunmetal","Copper Galaxy","Case Hardened","Candy Apple ","Jungle","Fowl Play","Fairy Tale","Hot Shot","Nitro","Monkey Business","Flame Test","Berries And Cherries","Buddy","Orange Peel","Nightshade","Scumbria","Violent Daimyo","Contractor","Hyper Beast","Boost Protocol","Triumvirate","Angry Mob","Retrobution","Neon Kimono","Silver Quartz","Capillary","Capillary","Crimson Blossom","Forest Night","Urban Hazard","Kami"}
  Dim skinsG3GS1() As String = {"New Roots", "Ancient Ritual", "Contractor", "Green Apple", "Demeter", "Digital Mesh", "Violet Murano", "Orange Crash", "Scavenger", "Desert Storm", "Azure Zebra", "Ventilator", "Stinger", "Chronos", "High Seas", "Jungle Dashed", "Safari Mesh", "Arctic Camo", "Keeping Tabs", "The Executioner", "Orange Kimono", "VariCamo", "Flux", "Black Sand", "Hunter", "Polar Camo", "Murky"}
-
+ Dim skinsGalil() As String = {"Cold Fusion", "Amber Fade", "CAUTION!", "Dusk Ruins", "Tuxedo", "Shattered", "Vandal", "Cerberus", "Urban Rubble", "Chatterbox", "Eco", "Firefight", "Signal", "Orange DDPAT", "Blue Titanium", "Rocket Pop", "Connexion", "Black Sand", "Phoenix Blacklight", "Kami", "Sage Spray", "Hunting Blind", "Tornado", "Winter Forest", "Sugar Rush", "Akoben", "Aqua Terrace", "VariCamo", "Stone Cold", "Chromatic Aberration", "Crimson Tsunami", "Sandstorm"]
+ 
  Dim rnd As New Random
  Dim output As String
  output = skinsAK(rnd.Next(0, 41))
